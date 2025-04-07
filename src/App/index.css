@@ -1,0 +1,10 @@
+@font-face {
+    font-display: block;
+    font-family: "icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url('@fonts/icons.woff2') format('woff2'),
+         url('@fonts/icons.woff') format('woff'),
+         url('@fonts/icons.ttf') format('ttf');
+}
+
