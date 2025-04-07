@@ -1,0 +1,19 @@
+.Button:visited,
+.Button {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 12px 16px;
+    font-size: 15px;
+    line-height: 1;
+    color: #fff;
+    background-color: #4176ea;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background-color: #151a40;
+    color: #fff;
+}
