@@ -3,7 +3,7 @@ import Classes from "./Button.module.css"
 
 function Button() {
     return (
-        <a className={Classes.Button} href="javascript:">
+        <a className={Classes.Button} href="#">
             О проекте
         </a>
     )

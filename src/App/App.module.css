@@ -1,3 +1,7 @@
+.App {
+    width: 100%;
+}
+
 @media (max-width: 1024px) { 
-    .App { }
+    .App {}
 }

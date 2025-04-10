@@ -1,3 +1,5 @@
 .Banners {
-
+    height: 320px;
+    overflow: hidden;
+    border-radius: 30px;
 }
