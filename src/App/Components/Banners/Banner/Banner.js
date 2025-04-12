@@ -2,6 +2,7 @@ import React from "react"
 import Title from './Title'
 import Info from './Info'
 import Button from './Button'
+import Image from './Image'
 
 import Classes from "./Banner.module.css"
 
@@ -15,13 +16,15 @@ function Banner() {
 
     return (
         <div className={Classes.Banner}>
-            <div className={Classes.third}></div>
             <div className={Classes.first}>
                 <Title html={title} />
                 <Info html={info} />
             </div>
             <div className={Classes.second}>
                 <Button />
+            </div>
+            <div className={Classes.third}>
+                <Image />
             </div>
         </div>
     )

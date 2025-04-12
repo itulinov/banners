@@ -11,6 +11,8 @@
 .first {
     flex: 1 1 auto;
     z-index: 100;
+    max-height: 230px;
+    overflow: hidden;
 }
 
 .second {
@@ -30,4 +32,11 @@
     border-bottom-right-radius: 30px;
     background-color: #d3eaff;
     z-index: 10;
+    overflow: hidden;
+}
+
+@media (max-width: 900px) { 
+.first {
+    max-height: 275px;
+}
 }

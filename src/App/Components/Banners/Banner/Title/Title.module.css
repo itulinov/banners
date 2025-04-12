@@ -5,3 +5,21 @@
     line-height: 1.2;
     color: #35404a;
 }
+
+@media (max-width: 900px) { 
+    .Title {
+        margin: 30px 40px;
+    }
+}
+
+@media (max-width: 430px) { 
+    .Title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 330px) { 
+    .Title {
+        margin: 30px 40px 10px 40px;
+    }
+}

@@ -3,3 +3,9 @@
     overflow: hidden;
     border-radius: 30px;
 }
+
+@media (max-width: 900px) { 
+    .Banners {
+        height: 365px;
+    }
+}
