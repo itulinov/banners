@@ -14,9 +14,9 @@
 
 .Button:hover {
     //background-color: #d3eaff;
-    //background-color: #3156a6;
+    background-color: #3156a6;
     //background-color: #244157;
-    background-color: #6df5d1;
-    color: #000;
-    //color: #fff;
+    //background-color: #6df5d1;
+    //color: #000;
+    color: #fff;
 }
