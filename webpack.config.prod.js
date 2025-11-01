@@ -64,7 +64,7 @@ module.exports = {
                              modules: {
                                 auto: true,
                                  localIdentName: '[name]_[local]_[path]' +
-                                                        '--[hash:base64:5]',
+                                                        '--[hash:base64:6]',
                             },
                         },
                     },

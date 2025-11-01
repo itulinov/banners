@@ -6,7 +6,7 @@
 function addLog(value, name) {
     var sLogName = name
     if (sLogName == undefined) {
-        sLogName = 'get_menu'
+        sLogName = 'get_banners'
     }
 
     EnableLog(sLogName)
@@ -18,11 +18,10 @@ function addLog(value, name) {
 
 // entry point
 try {
-    var path = 'x-local://wt/web/custom_projects/menu/'
-    var file = 'menu_lib.js'
-    var LIB = OpenCodeLib(path + file).clear()
+    var path = 'x-local://wt/web/custom_projects/banners/banners_lib.js'
+    var LIB = OpenCodeLib(path).clear()
 
-    RESULT = LIB.getMenu(document_id, curUserID, mode)
+    RESULT = LIB.getBanners(curUserID)
     ERROR = 0;
     MESSAGE = ""
 }
